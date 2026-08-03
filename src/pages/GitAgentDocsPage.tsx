@@ -20,6 +20,7 @@ import { GitAgentCLI } from "@/components/gitAgent/GitAgentCLI";
 import { GitAgentModels } from "@/components/gitAgent/GitAgentModels";
 import { GitAgentWebUI } from "@/components/gitAgent/GitAgentWebUI";
 import { GitAgentTools } from "@/components/gitAgent/GitAgentTools";
+import { GitAgentMCP } from "@/components/gitAgent/GitAgentMCP";
 import { GitAgentSkills } from "@/components/gitAgent/GitAgentSkills";
 import { GitAgentWorkflows } from "@/components/gitAgent/GitAgentWorkflows";
 import { GitAgentHooks } from "@/components/gitAgent/GitAgentHooks";
@@ -47,6 +48,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   webui: GitAgentWebUI,
   messaging: GitAgentMessaging,
   tools: GitAgentTools,
+  mcp: GitAgentMCP,
   skills: GitAgentSkills,
   workflows: GitAgentWorkflows,
   hooks: GitAgentHooks,
