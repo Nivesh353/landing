@@ -48,6 +48,7 @@ export const sidebarGroups = [
     slug: "capabilities",
     items: [
       { id: "tools", label: "Tools" },
+      { id: "a2a", label: "A2A Client" },
       { id: "skills", label: "Skills" },
       { id: "workflows", label: "Workflows" },
       { id: "hooks", label: "Hooks" },
