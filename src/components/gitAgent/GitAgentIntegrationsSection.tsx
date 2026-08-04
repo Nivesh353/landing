@@ -63,7 +63,7 @@ export function GitAgentIntegrationsSection() {
           className="mb-12"
         >
           <span className="text-[10px] text-muted-foreground/40 font-body tracking-widest uppercase mb-1 block">
-            08 — Integrations
+            09 — Integrations
           </span>
           <h2 className="text-2xl font-heading font-bold text-foreground mb-2">
             Integrations

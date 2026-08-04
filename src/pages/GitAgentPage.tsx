@@ -6,6 +6,7 @@ import { GitAgentWhySection } from "@/components/gitAgent/GitAgentWhySection";
 import { GitAgentArchitectureSection } from "@/components/gitAgent/GitAgentArchitectureSection";
 import { GitAgentInterfaces } from "@/components/gitAgent/GitAgentInterfaces";
 import { GitAgentFeaturesSection } from "@/components/gitAgent/GitAgentFeaturesSection";
+import { GitAgentUseCasesSection } from "@/components/gitAgent/GitAgentUseCasesSection";
 import { GitAgentModelsSection } from "@/components/gitAgent/GitAgentModelsSection";
 import { GitAgentMemorySection } from "@/components/gitAgent/GitAgentMemorySection";
 import { GitAgentIntegrationsSection } from "@/components/gitAgent/GitAgentIntegrationsSection";
@@ -19,6 +20,7 @@ const overviewSections = [
   { id: "interfaces", label: "Interfaces" },
   { id: "architecture", label: "Architecture" },
   { id: "features", label: "Features" },
+  { id: "use-cases", label: "Use Cases" },
   { id: "models", label: "Models" },
   { id: "memory", label: "Memory" },
   { id: "integrations", label: "Integrations" },
@@ -96,6 +98,7 @@ const GitAgentPage = () => {
         <GitAgentInterfaces />
         <GitAgentArchitectureSection />
         <GitAgentFeaturesSection />
+        <GitAgentUseCasesSection />
         <GitAgentModelsSection />
         <GitAgentMemorySection />
         <GitAgentIntegrationsSection />
